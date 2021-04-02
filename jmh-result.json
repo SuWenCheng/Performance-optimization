@@ -1,0 +1,53 @@
+[
+    {
+        "jmhVersion" : "1.23",
+        "benchmark" : "com.al.po.tuning.SingleShotTimeTest.a",
+        "mode" : "ss",
+        "threads" : 8,
+        "forks" : 1,
+        "jvm" : "D:\\Program Files\\Java\\jdk1.8.0_241\\jre\\bin\\java.exe",
+        "jvmArgs" : [
+            "-javaagent:D:\\Program Files\\JetBrains\\IntelliJ IDEA 2020.2.1\\lib\\idea_rt.jar=64780:D:\\Program Files\\JetBrains\\IntelliJ IDEA 2020.2.1\\bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_241",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "25.241-b07",
+        "warmupIterations" : 0,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 1,
+        "measurementTime" : "single-shot",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 1004.8976,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 1004.8976,
+                "50.0" : 1004.8976,
+                "90.0" : 1004.8976,
+                "95.0" : 1004.8976,
+                "99.0" : 1004.8976,
+                "99.9" : 1004.8976,
+                "99.99" : 1004.8976,
+                "99.999" : 1004.8976,
+                "99.9999" : 1004.8976,
+                "100.0" : 1004.8976
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    1004.8976
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    }
+]
+
+
